@@ -7,10 +7,11 @@ The interface is shared by the server, that implements it, and by the client, th
 
 ## Instructions for using Maven
 
-To compile and install:
+To compile and install (make sure that .venv is active):
 
 ```
 mvn install
+mvn exec:exec
 ```
 
 
