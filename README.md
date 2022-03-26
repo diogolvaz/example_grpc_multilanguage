@@ -15,7 +15,7 @@ Create a python virtual environment and install de grpc packages
  # create a virtual environment
  # windows
  > python -m venv .venv
- > venv\Scripts\activate
+ > .venv\Scripts\activate
 
  # linux
  $ virtualenv .venv
