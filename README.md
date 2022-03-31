@@ -7,10 +7,10 @@ This is a gRPC example application, composed of three modules:
 - [python_client](python_client/) - invocation of service
 
 ## Instructions
-Create a python virtual environment and install de grpc packages
+Create a [python virtual environment](https://docs.python.org/3/library/venv.html) and install de grpc packages
 ```
- # command to install virtualenv
- python -m pip install virtualenv 
+ # virtualenv is only used in Python2, pyvenv is deprecated
+ # you may need to replace python with python3 on your machine
 
  # create a virtual environment
  # windows
@@ -18,7 +18,7 @@ Create a python virtual environment and install de grpc packages
  > .venv\Scripts\activate
 
  # linux
- $ virtualenv .venv
+ $ python -m venv .venv
  $ source .venv/bin/activate
 
  # install the packages
