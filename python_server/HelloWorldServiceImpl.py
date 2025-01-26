@@ -12,15 +12,6 @@ class HelloWorldServiceImpl(pb2_grpc.HelloWorldServiceServicer):
         # print the received request
         print(request)
 
-        # get list of hobbies
-        hobbies = request.hobbies
-
-        # print the hobbies
-        print("Hobbies:")
-        for hobby in hobbies:
-            print("  " + hobby)
-        print()
-
         # get the name
         name = request.name
 
